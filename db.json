@@ -1,0 +1,90 @@
+{
+  "balanceSummary": {
+    "currentBalance": 100.0,
+    "income": {
+      "totalAmount": 100.0,
+      "avgAmount": 100.0,
+      "count": 1
+    },
+    "outcome": {
+      "totalAmount": 100.0,
+      "avgAmount": 100.0,
+      "count": 1
+    },
+    "conversionCounters": {
+      "qrcodesCount": 3,
+      "qrcodesPaid": 1,
+      "qrcodesPerc": 0.33
+    },
+    "updatedAt": "2022-03-09T19:55:12.051Z"
+  },
+
+  "qrcodes": [
+    {
+      "id": "6f30a4e4-adb4-4ac0-9d8d-67298e846147",
+      "qrCodeId": "6f30a4e4-adb4-4ac0-9d8d-67298e846147",
+      "requestAmount": 25.9,
+      "paidAmount": null,
+      "type": "Cobrança simples",
+      "createdAt": "2022-03-09T19:55:12.051Z",
+      "createdBy": "admin@empresa.com.br",
+      "payer": {
+        "name": "Josemar da Silva",
+        "taxIdNumber": "123456789010",
+        "documentType": "CPF",
+        "city": "São Paulo",
+        "codIspb": "???"
+      }
+    },
+    {
+      "id": "ea4edf51-00bf-40ab-a454-02e8e5bfbe93",
+      "qrCodeId": "ea4edf51-00bf-40ab-a454-02e8e5bfbe93",
+      "amount": 100.0,
+      "paidAmount": 100.0,
+      "createdAt": "2022-03-09T19:43:12.051Z",
+      "createdBy": "admin@empresa.com.br",
+      "type": "Cobrança simples",
+      "payer": {
+        "name": "Ruth Santos",
+        "taxIdNumber": "123456789010",
+        "documentType": "CPF",
+        "city": "São Paulo",
+        "codIspb": "???"
+      }
+    },
+    {
+      "id": "8db29350-e539-462c-bd62-958d624409fc",
+      "qrCodeId": "8db29350-e539-462c-bd62-958d624409fc",
+      "amount": 17.99,
+      "paidAmount": null,
+      "type": "Cobrança simples",
+      "createdAt": "2022-03-09T18:05:12.051Z",
+      "createdBy": "admin@empresa.com.br",
+      "payer": {
+        "name": "Josemar da Silva",
+        "taxIdNumber": "123456789010",
+        "documentType": "CPF",
+        "city": "São Paulo",
+        "codIspb": "???"
+      }
+    }
+  ],
+
+  "transactions": [
+    {
+      "qrCodeId": "6f30a4e4-adb4-4ac0-9d8d-67298e846147",
+      "id": "97d84cb7-8251-40ea-8380-c4592d270b92",
+      "transactionId": "97d84cb7-8251-40ea-8380-c4592d270b92",
+      "amount": 25.9,
+      "createdAt": "2022-03-09T19:55:12.051Z",
+      "paidAt": "2022-03-09T20:15:12.051Z",
+      "payer": {
+        "name": "Josemar da Silva",
+        "taxIdNumber": "123456789010",
+        "documentType": "CPF",
+        "city": "São Paulo",
+        "codIspb": "???"
+      }
+    }
+  ]
+}
