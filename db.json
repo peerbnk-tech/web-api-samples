@@ -33,29 +33,29 @@
         "taxIdNumber": "123456789010",
         "documentType": "CPF",
         "city": "São Paulo",
-        "codIspb": "???"
+        "codIspb": 12345
       }
     },
     {
       "id": "ea4edf51-00bf-40ab-a454-02e8e5bfbe93",
       "qrCodeId": "ea4edf51-00bf-40ab-a454-02e8e5bfbe93",
-      "amount": 100.0,
+      "requestAmount": 100.0,
       "paidAmount": 100.0,
+      "type": "Cobrança simples",
       "createdAt": "2022-03-09T19:43:12.051Z",
       "createdBy": "admin@empresa.com.br",
-      "type": "Cobrança simples",
       "payer": {
         "name": "Ruth Santos",
         "taxIdNumber": "123456789010",
         "documentType": "CPF",
         "city": "São Paulo",
-        "codIspb": "???"
+        "codIspb": 8273
       }
     },
     {
       "id": "8db29350-e539-462c-bd62-958d624409fc",
       "qrCodeId": "8db29350-e539-462c-bd62-958d624409fc",
-      "amount": 17.99,
+      "requestAmount": 17.99,
       "paidAmount": null,
       "type": "Cobrança simples",
       "createdAt": "2022-03-09T18:05:12.051Z",
@@ -65,7 +65,7 @@
         "taxIdNumber": "123456789010",
         "documentType": "CPF",
         "city": "São Paulo",
-        "codIspb": "???"
+        "codIspb": 89723
       }
     }
   ],
