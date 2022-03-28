@@ -1,4 +1,13 @@
 {
+  "company": {
+    "name": "Sample Company",
+    "documentNumber": "80978363000135",
+    "documentType": "CNPJ",
+    "logoImage": "https://raw.githubusercontent.com/peerbnk-tech/web-api-samples/main/images/logo.png",
+    "colors": {
+      "primaryColor": "#003b5c"
+    }
+  },
   "balanceSummary": {
     "currentBalance": 100.0,
     "income": {
@@ -18,7 +27,6 @@
     },
     "updatedAt": "2022-03-09T19:55:12.051Z"
   },
-
   "qrcodes": [
     {
       "id": "6f30a4e4-adb4-4ac0-9d8d-67298e846147",
